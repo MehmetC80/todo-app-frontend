@@ -4,7 +4,7 @@ import {
   Todo,
   useDeleteTodoMutation,
   useGetAllTodosQuery,
-} from '../services/todoApi';
+} from '../service/todoApi';
 type Props = { todo: Todo; index: number };
 
 function Todo({ todo, index }: Props) {

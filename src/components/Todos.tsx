@@ -1,4 +1,4 @@
-import { Todo, useGetAllTodosQuery } from '../services/todoApi';
+import { Todo, useGetAllTodosQuery } from '../service/todoApi';
 
 import TodoComponent from './TodoComponent';
 export const Todos = () => {

@@ -2,8 +2,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useState } from 'react';
 import Button from './ui/Button';
 import Input from './ui/Input';
-import { useAddTodoMutation, useGetAllTodosQuery } from '../services/todoApi';
-import { add } from '../services/localTodos';
+import { useAddTodoMutation, useGetAllTodosQuery } from '../service/todoApi';
+import { add } from '../service/localTodos';
 
 export const TodoInput = () => {
   const [value, setValue] = useState('');

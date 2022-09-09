@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 
-import { logout } from '../../services/userSlice';
+import { logout } from '../../service/userSlice';
 import { RootState } from '../../store';
 import Button from '../ui/Button';
 import TextLink from '../ui/TextLink';
