@@ -25,6 +25,7 @@ export const Register = () => {
       </div>
       <div>
         <Input
+          type='password'
           labelText='Passwort'
           value={password}
           onChange={(e) => setPassword(e.target.value)}

@@ -30,7 +30,7 @@ const initialState: UserState = {
   token: localStorage.getItem('token'),
 };
 
-export const userSlice = createSlice({
+export const userSlice: any = createSlice({
   name: 'user',
 
   initialState,
